@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Mon Jul 25 2016 10:30:57 GMT+0100 (IST)
+# Time: Wed Aug 10 2016 10:09:02 GMT+0100 (IST)
 
 CACHE:
 404.html
@@ -48,8 +48,8 @@ locales/de/translation.json
 locales/de_ch/translation.json
 locales/el/translation.json
 locales/en/translation.json
-locales/eo/translation.json
 locales/es/translation.json
+locales/eo/translation.json
 locales/fr/translation.json
 locales/hi_in/translation.json
 locales/it/translation.json
@@ -57,10 +57,11 @@ locales/ko/translation.json
 locales/lt/translation.json
 locales/lv/translation.json
 locales/mr_in/translation.json
-locales/nl/translation.json
 locales/nb/translation.json
+locales/nl/translation.json
 locales/nn/translation.json
 locales/pt_br/translation.json
+locales/pt/translation.json
 locales/ru/translation.json
 locales/se/translation.json
 locales/sq/translation.json
@@ -78,35 +79,35 @@ bower_components/backbone.radio/build/backbone.radio.min.js
 bower_components/localforage/dist/localforage.js
 bower_components/jquery/dist/jquery.js
 bower_components/markdown-it/dist/markdown-it.min.js
-bower_components/markdown-it-hashtag/dist/markdown-it-hashtag.min.js
 bower_components/markdown-it-imsize/dist/markdown-it-imsize.min.js
-bower_components/markdown-it-sanitizer/dist/markdown-it-sanitizer.min.js
+bower_components/markdown-it-hashtag/dist/markdown-it-hashtag.min.js
 bower_components/markdown-it-math/dist/markdown-it-math.min.js
+bower_components/markdown-it-sanitizer/dist/markdown-it-sanitizer.min.js
 bower_components/prism/themes/prism.css
+scripts/modules/fs/module.js
 scripts/modules/electronSearch/controller.js
 scripts/modules/electronSearch/module.js
 scripts/modules/electronSearch/template.html
 scripts/modules/electronSearch/view.js
-scripts/modules/fs/module.js
 scripts/modules/fuzzySearch/module.js
 scripts/modules/mathjax/module.js
 bower_components/bluebird/js/browser/bluebird.min.js
-bower_components/remotestorage.js/release/stable/remotestorage.js
 scripts/modules/fs/classes/adapter.js
 scripts/modules/fs/classes/sync.js
+bower_components/remotestorage.js/release/stable/remotestorage.js
 scripts/modules/fs/templates/settings.html
-scripts/modules/fuzzySearch/controllers/main.js
 scripts/modules/fs/views/settings.js
+scripts/modules/markdown/workers/markdown.js
+scripts/modules/markdown/libs/markdown-it-file.js
+scripts/modules/markdown/libs/markdown-it-task.js
+scripts/modules/markdown/libs/markdown-it.js
+scripts/modules/markdown/libs/markdown.js
+scripts/modules/fuzzySearch/controllers/main.js
 scripts/modules/fuzzySearch/regions/sidebar.js
 scripts/modules/fuzzySearch/templates/composite.html
 scripts/modules/fuzzySearch/templates/item.html
 scripts/modules/fuzzySearch/views/composite.js
 scripts/modules/fuzzySearch/views/item.js
-scripts/modules/markdown/libs/markdown-it-file.js
-scripts/modules/markdown/libs/markdown-it-task.js
-scripts/modules/markdown/libs/markdown-it.js
-scripts/modules/markdown/libs/markdown.js
-scripts/modules/markdown/workers/markdown.js
 scripts/modules/mathjax/libs/mathjax.js
 styles/core/fontello/font/fontello.eot
 styles/core/fontello/font/fontello.svg
@@ -122,4 +123,4 @@ FALLBACK:
 SETTINGS:
 prefer-online
 
-# hash: af6472abed35b6a6dae0e237c0609f19689ec41303dfad28f1e93e2e5e6431f7
+# hash: 2e350e8660b04373d21225c0c0c9ce56a9164416ee76d161dc1abd8e7b9dd2f6

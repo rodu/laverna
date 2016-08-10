@@ -51,8 +51,8 @@
     "Your new encryption password": "Ihr neues Verschlüsselungspasswort",
     "Your old encryption password": "Ihr altes Verschlüsselungspasswort",
     "Show sidebar": "Seitenleiste anzeigen",
-    "Previous": "Vorherige",
-    "Next": "Nächste",
+    "Previous": "Zurück",
+    "Next": "Weiter",
     "Navigation": "Navigation",
     "navigateTop": "Nach oben",
     "navigateBottom": "Nach unten",
@@ -80,7 +80,7 @@
     "List of contributors": "Liste der Mitwirkenden",
     "List of all used libraries": "Liste aller benutzten Bibliotheken",
     "Are you sure?": "Sind Sie sicher?",
-    "You have unsaved changes.": "Sie haben nicht gespeicherte Änderungen",
+    "You have unsaved changes": "Sie haben nicht gespeicherte Änderungen.",
     "Dropbox API key": "Dropbox API Schlüssel",
     "Required": "Erforderlich",
     "Optional": "Optional",
@@ -132,7 +132,8 @@
         }
     },
     "profile": {
-        "confirm remove": "Das Profil **__profile__** wird mit allen Daten inklusive Notizen, Tags und Notizbüchern gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden!",
+		"profile name": "Profilname",
+        "confirm remove": "Das Profil **{{profile}}** wird mit allen Daten inklusive Notizen, Tags und Notizbüchern gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden!",
         "type name": "Profilnamen eingeben"
     },
     "files": {
@@ -142,8 +143,8 @@
         "attachImage": "Als Bild anhängen"
     },
     "notes": {
-        "confirm trash": "Die Notiz **__title__** wird in den Papierkorb verschoben.",
-        "confirm remove": "Die Notiz **__title__** wird **endgültig** gelöscht!",
+        "confirm trash": "Die Notiz **{{title}}** wird in den Papierkorb verschoben.",
+        "confirm remove": "Die Notiz **{{title}}** wird **endgültig** gelöscht!",
         "create and attach": "Neue Notiz erstellen und deren Link anhängen",
         "create": "Neue Notiz erstellen",
         "hyperlink-dialog": "Titel einer Notiz oder URL"
@@ -153,7 +154,7 @@
         "add": "Neues Notizbuch hinzufügen",
         "edit": "Notizbuch bearbeiten",
         "name": "Bitte geben Sie den Namen des Notizbuchs an",
-        "confirm remove": "Das Notizbuch **__name__** wird **endgültig** gelöscht!",
+        "confirm remove": "Das Notizbuch **{{name}}** wird **endgültig** gelöscht!",
         "remove with notes": "Ja, mit angehängten Notizen löschen",
         "remove": "Ja, löschen"
     },
@@ -161,7 +162,7 @@
         "name": "Tagname ist erforderlich",
         "add": "Neuen Tag hinzufügen",
         "edit": "Tag bearbeiten",
-        "confirm remove": "Der Tag **__name__** wird **endgültig** gelöscht!"
+        "confirm remove": "Der Tag **{{name}}** wird **endgültig** gelöscht!"
     },
     "dropbox": {
         "auth confirm": "Sie werden jetzt zur **Dropbox** Autorisierungsseite umgeleitet.\r> Bitte klicken Sie den **OK** Button.",
@@ -173,7 +174,7 @@
     },
     "help": {
         "firststart title": "Willkommen zu Laverna",
-        "firststart import": "Wenn Sie Laverna bereits verwendet haben, können Sie Ihre alten Einstellungen über den gelben 'Import' Button unten importieren.",
+        "firststart import": "Wenn Sie Laverna bereits verwendet haben, können Sie Ihre alten Einstellungen über den 'Import' Button unten importieren.",
         "firststart next": "Wenn Sie Laverna noch nie benutzt haben, klicken Sie auf 'Weiter' um die Installation zu starten.",
         "firststart encryption": "Falls Sie Verschlüsselung verwenden wollen, geben Sie bitte das Verschlüsselungspasswort an.",
         "firststart sync": "Damit Sie Ihre Notizen auch auf anderen Geräten sehen können, müssen Sie die Synchronisierung mit einem Adapter aktivieren, da wir keine Daten auf unseren Servern speichern.",
